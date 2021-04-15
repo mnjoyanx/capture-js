@@ -41,12 +41,29 @@
         </div>
 
 
+
         <div class="start-content">
-            <div>
+            <div class="record-screen" id="startrecording">
                 <p class="record__your-screen">Record your screen</p>
                 <button id="open-modal" class="start-btn"> <i class="fa fa-desktop"></i> Start recording</button>
             </div>
 
+            <div class="stop-recording hidden" id="stoprecording">
+                <button id="stop" class="stop-recording-btn"><i class="fa fa-stop-circle"></i> Stop recording</button>
+                <p id="timer"><span id="minute">0</span>:<span id="first">0</span><span id="second">0</span></p> / <span>5:00</span>
+            </div>
+        </div>
+
+
+        <div class="screen-controller hidden" id="controller">
+            <video id="videoplayer"></video>
+        </div>
+
+        <div>
+            <div>
+                <button>download</button>
+                <button>delete</button>
+            </div>
         </div>
 
     </div>

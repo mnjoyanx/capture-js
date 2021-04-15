@@ -14,9 +14,7 @@ body {
 
 .start-content {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
+    margin-top: 20px;
 }
 
 .record__your-screen {
@@ -72,7 +70,7 @@ body {
 }
 
 .hidden {
-    display: none;
+    display: none !important;
 }
 
 .show {
@@ -86,4 +84,26 @@ body {
 .err-message {
     color: red;
     margin-top: 10px;
+}
+
+.record-screen {
+    display: flex;
+}
+
+.stop-recording {
+    display: flex;
+}
+
+.stop-recording-btn {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    outline: none;
+    border: none;
+    height: 100%;
+}
+
+.stop-recording-btn i {
+    font-size: 28px;
 }
